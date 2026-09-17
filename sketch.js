@@ -2,6 +2,9 @@ let song
 async function setup() {
   //song = await loadSound('assets/Full Hearts.mp3')
   createCanvas(400, 400);
+  fill(0,0,0,0)
+  stroke(0,0,0)
+  rect(0,0,400,400)
 }
 
 function soappret(xpos,ypos){
@@ -25,7 +28,6 @@ function draw() {
   fill(0,0,0)
   //rect(86.25,162.5,227.5,75)
   // debug schteuph
-  text("SOAPPRET",175,10)
 }
 /*function mousePressed() {
   song.play();
